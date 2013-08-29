@@ -1,0 +1,34 @@
+#
+# YAML Definition for Minecraft Pocket Edition. See minecraft.yaml for details.
+#
+
+name: Thermal Expansion
+
+defaults:
+  name: Future Block!
+  mapcolor: [201, 119, 240]
+  tex: [11, 8]
+  brightness: 0
+  opacity: 15
+
+
+blocks:
+
+  - id: 2006
+    idStr: CONDUIT
+    name: Redstone Energy Conduit
+    mapcolor: [60, 192, 41]
+    tex: [5, 3] # The "correct" one is actually [4, 3] but with the current
+                # transparency rendering issues, this one looks better.
+    opacity: 1
+    data:
+      0:
+        name: Redstone Energy Conduit
+        mapcolor: [60, 192, 41]
+        tex: [5, 3]
+      4096:
+        name: Liquiduct
+        mapcolor: [60, 192, 41]
+        tex: [5, 3]
+
+...
