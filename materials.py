@@ -347,10 +347,6 @@ pocketMaterials = MCMaterials()
 pocketMaterials.name = "Pocket"
 pocketMaterials.addYamlBlocksFromFile("pocket.yaml")
 
-thermalExpansion = MCMaterials()
-modMaterials.name = "Thermal Expansion"
-modMaterials.addYamlBlocksFromFile("mods/thermalexpansion.yaml")
-
 # --- Static block defs ---
 
 alphaMaterials.Stone = alphaMaterials[1, 0]
